@@ -5,14 +5,13 @@ export default function VideoPlayer() {
   const selectRef = useRef(null)
 
   const videos = [
-    {
-      label: 'Big Buck Bunny (CDN)',
-      src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-    },
-    { label: 'Local: Video 1', src: '/videos/video1.mp4' },
-    { label: 'Local: Video 2', src: '/videos/video2.mp4' },
-    { label: 'Local: Video 3', src: '/videos/video3.mp4' },
-  ]
+  {
+    label: 'Big Buck Bunny (CDN)',
+    src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+  },
+  { label: 'Local: Video 1', src: '/videos/101379-video-720.mp4' },
+]
+
 
   const play = () => {
     const v = videoRef.current
